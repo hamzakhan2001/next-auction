@@ -1,0 +1,209 @@
+[{
+	"_id": {
+		"$oid": "698d9628d696896a6efe899c"
+	},
+	"product": {
+		"$oid": "698d9627d696896a6efe898c"
+	},
+	"seller": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"startTime": {
+		"$date": "2026-02-12T06:58:15.089Z"
+	},
+	"endTime": {
+		"$date": "2026-02-12T12:58:15.089Z"
+	},
+	"status": "active",
+	"currentBid": 5850,
+	"currentBidder": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"winner": null,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:16.832Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:16.832Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9629d696896a6efe899e"
+	},
+	"product": {
+		"$oid": "698d9627d696896a6efe898d"
+	},
+	"seller": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"startTime": {
+		"$date": "2026-02-12T07:58:15.089Z"
+	},
+	"endTime": {
+		"$date": "2026-02-12T14:58:15.089Z"
+	},
+	"status": "active",
+	"currentBid": 950,
+	"currentBidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"winner": null,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:17.141Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:17.141Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9629d696896a6efe89a0"
+	},
+	"product": {
+		"$oid": "698d9627d696896a6efe898f"
+	},
+	"seller": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"startTime": {
+		"$date": "2026-02-12T08:28:15.089Z"
+	},
+	"endTime": {
+		"$date": "2026-02-12T10:58:15.089Z"
+	},
+	"status": "active",
+	"currentBid": 2800,
+	"currentBidder": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"winner": null,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:17.446Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:17.446Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9629d696896a6efe89a2"
+	},
+	"product": {
+		"$oid": "698d9627d696896a6efe8990"
+	},
+	"seller": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"startTime": {
+		"$date": "2026-02-12T11:58:15.089Z"
+	},
+	"endTime": {
+		"$date": "2026-02-13T11:58:15.089Z"
+	},
+	"status": "pending",
+	"currentBid": 3000,
+	"currentBidder": null,
+	"winner": null,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:17.753Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:17.753Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89a4"
+	},
+	"product": {
+		"$oid": "698d9627d696896a6efe8992"
+	},
+	"seller": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"startTime": {
+		"$date": "2026-02-12T09:58:15.089Z"
+	},
+	"endTime": {
+		"$date": "2026-02-13T09:58:15.089Z"
+	},
+	"status": "pending",
+	"currentBid": 2000,
+	"currentBidder": null,
+	"winner": null,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:18.059Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:18.059Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89a6"
+	},
+	"product": {
+		"$oid": "698d9627d696896a6efe8993"
+	},
+	"seller": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"startTime": {
+		"$date": "2026-02-12T08:13:15.089Z"
+	},
+	"endTime": {
+		"$date": "2026-02-12T13:58:15.089Z"
+	},
+	"status": "active",
+	"currentBid": 2000,
+	"currentBidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"winner": null,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:18.367Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T09:32:21.387Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9d8f25f4d84c05e2bd9f"
+	},
+	"product": {
+		"$oid": "698d9627d696896a6efe898e"
+	},
+	"seller": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"startTime": {
+		"$date": "2026-02-12T09:32:00Z"
+	},
+	"endTime": {
+		"$date": "2026-02-12T09:40:00Z"
+	},
+	"status": "ended",
+	"currentBid": 2000,
+	"currentBidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"winner": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"createdAt": {
+		"$date": "2026-02-12T09:29:51.706Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T09:40:06.196Z"
+	},
+	"__v": 0
+}]
+

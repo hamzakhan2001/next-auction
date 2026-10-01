@@ -1,0 +1,267 @@
+[{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89aa"
+	},
+	"auction": {
+		"$oid": "698d9628d696896a6efe899c"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"amount": 5700,
+	"createdAt": {
+		"$date": "2026-02-12T08:28:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:28:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89a8"
+	},
+	"auction": {
+		"$oid": "698d9628d696896a6efe899c"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"amount": 5200,
+	"createdAt": {
+		"$date": "2026-02-12T07:28:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T07:28:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89a9"
+	},
+	"auction": {
+		"$oid": "698d9628d696896a6efe899c"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"amount": 5500,
+	"createdAt": {
+		"$date": "2026-02-12T07:58:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T07:58:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89ab"
+	},
+	"auction": {
+		"$oid": "698d9628d696896a6efe899c"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"amount": 5850,
+	"createdAt": {
+		"$date": "2026-02-12T08:43:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:43:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89b0"
+	},
+	"auction": {
+		"$oid": "698d9629d696896a6efe899e"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"amount": 850,
+	"createdAt": {
+		"$date": "2026-02-12T08:13:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:13:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89b2"
+	},
+	"auction": {
+		"$oid": "698d9629d696896a6efe899e"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"amount": 950,
+	"createdAt": {
+		"$date": "2026-02-12T08:48:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:48:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962ad696896a6efe89b1"
+	},
+	"auction": {
+		"$oid": "698d9629d696896a6efe899e"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"amount": 900,
+	"createdAt": {
+		"$date": "2026-02-12T08:28:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:28:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962bd696896a6efe89b7"
+	},
+	"auction": {
+		"$oid": "698d9629d696896a6efe89a0"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"amount": 2700,
+	"createdAt": {
+		"$date": "2026-02-12T08:43:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:43:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962bd696896a6efe89b8"
+	},
+	"auction": {
+		"$oid": "698d9629d696896a6efe89a0"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"amount": 2800,
+	"createdAt": {
+		"$date": "2026-02-12T08:53:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:53:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962bd696896a6efe89b6"
+	},
+	"auction": {
+		"$oid": "698d9629d696896a6efe89a0"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"amount": 2600,
+	"createdAt": {
+		"$date": "2026-02-12T08:33:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:33:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962bd696896a6efe89bd"
+	},
+	"auction": {
+		"$oid": "698d962ad696896a6efe89a6"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"amount": 1650,
+	"createdAt": {
+		"$date": "2026-02-12T08:38:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:38:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d962bd696896a6efe89bc"
+	},
+	"auction": {
+		"$oid": "698d962ad696896a6efe89a6"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"amount": 1550,
+	"createdAt": {
+		"$date": "2026-02-12T08:23:15.089Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:23:15.089Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9e2525f4d84c05e2be46"
+	},
+	"auction": {
+		"$oid": "698d962ad696896a6efe89a6"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"amount": 2000,
+	"createdAt": {
+		"$date": "2026-02-12T09:32:21.796Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T09:32:21.796Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9e4c25f4d84c05e2be68"
+	},
+	"auction": {
+		"$oid": "698d9d8f25f4d84c05e2bd9f"
+	},
+	"bidder": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"amount": 2000,
+	"createdAt": {
+		"$date": "2026-02-12T09:33:00.402Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T09:33:00.402Z"
+	},
+	"__v": 0
+}]
+

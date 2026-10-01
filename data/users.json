@@ -1,0 +1,46 @@
+[{
+	"_id": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"name": "Alice Johnson",
+	"email": "alice@example.com",
+	"password": "$2b$12$CzAlv/ee9Ygm6rVXGE4xj.yMfM3.xA6f5rF4oAWK32zZ2w9OWWamS",
+	"createdAt": {
+		"$date": "2026-02-12T08:58:13.338Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:13.338Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"name": "Bob Smith",
+	"email": "bob@example.com",
+	"password": "$2b$12$CzAlv/ee9Ygm6rVXGE4xj.yMfM3.xA6f5rF4oAWK32zZ2w9OWWamS",
+	"createdAt": {
+		"$date": "2026-02-12T08:58:13.338Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:13.338Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"name": "Charlie Brown",
+	"email": "charlie@example.com",
+	"password": "$2b$12$CzAlv/ee9Ygm6rVXGE4xj.yMfM3.xA6f5rF4oAWK32zZ2w9OWWamS",
+	"createdAt": {
+		"$date": "2026-02-12T08:58:13.338Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:13.338Z"
+	},
+	"__v": 0
+}]
+

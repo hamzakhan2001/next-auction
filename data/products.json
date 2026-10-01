@@ -1,0 +1,161 @@
+[{
+	"_id": {
+		"$oid": "698d9627d696896a6efe898c"
+	},
+	"title": "Vintage Rolex Submariner 1968",
+	"description": "A beautifully preserved vintage Rolex Submariner from 1968. Original dial, hands, and bezel. Comes with box and papers. Service history available.",
+	"imageUrl": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=800",
+	"startingPrice": 5000,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"hasAuction": true,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9627d696896a6efe898d"
+	},
+	"title": "Original Oil Painting - Sunset Over Mountains",
+	"description": "A stunning original oil painting by renowned local artist. Canvas size 36x48 inches. Signed and dated. Certificate of authenticity included.",
+	"imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800",
+	"startingPrice": 800,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"hasAuction": true,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9627d696896a6efe898e"
+	},
+	"title": "Antique Persian Rug - Handwoven",
+	"description": "Authentic handwoven Persian rug from Isfahan, circa 1920. Measures 8x10 feet. Beautiful floral pattern in deep reds and blues. Minor wear consistent with age.",
+	"imageUrl": "https://images.unsplash.com/photo-1600166898405-da9535204843?w=800",
+	"startingPrice": 1200,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8986"
+	},
+	"hasAuction": true,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T09:29:51.99Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9627d696896a6efe898f"
+	},
+	"title": "MacBook Pro M3 Max - Sealed",
+	"description": "Brand new sealed MacBook Pro 16\" with M3 Max chip, 36GB RAM, 1TB SSD. Space Black. Full Apple warranty.",
+	"imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+	"startingPrice": 2500,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"hasAuction": true,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9627d696896a6efe8990"
+	},
+	"title": "Fender Stratocaster 1964 Reissue",
+	"description": "Limited edition Fender Custom Shop 1964 Stratocaster reissue. Sunburst finish, rosewood fretboard. Includes original hardshell case.",
+	"imageUrl": "https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?w=800",
+	"startingPrice": 3000,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"hasAuction": true,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9627d696896a6efe8993"
+	},
+	"title": "DJI Mavic 3 Pro Fly More Combo",
+	"description": "Complete DJI Mavic 3 Pro Fly More Combo. Includes 3 batteries, charging hub, ND filter set, and carrying case. Only 5 hours of flight time.",
+	"imageUrl": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800",
+	"startingPrice": 1500,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"hasAuction": true,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.096Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:15.096Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9627d696896a6efe8991"
+	},
+	"title": "Rare First Edition - The Great Gatsby",
+	"description": "First edition, first printing of The Great Gatsby by F. Scott Fitzgerald (1925). Green cloth binding with gilt lettering. Good condition with minor foxing.",
+	"imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800",
+	"startingPrice": 15000,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8987"
+	},
+	"hasAuction": false,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:15.095Z"
+	},
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "698d9627d696896a6efe8992"
+	},
+	"title": "Signed Michael Jordan Jersey",
+	"description": "Authenticated signed Michael Jordan Chicago Bulls jersey. Number 23. Comes with COA from Beckett Authentication. Frame not included.",
+	"imageUrl": "https://images.unsplash.com/photo-1515459961680-58bf0b6c6e03?w=800",
+	"startingPrice": 2000,
+	"owner": {
+		"$oid": "698d9625d696896a6efe8988"
+	},
+	"hasAuction": true,
+	"createdAt": {
+		"$date": "2026-02-12T08:58:15.096Z"
+	},
+	"updatedAt": {
+		"$date": "2026-02-12T08:58:15.096Z"
+	},
+	"__v": 0
+}]
+
