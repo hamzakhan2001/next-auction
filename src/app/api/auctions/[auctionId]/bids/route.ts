@@ -2,6 +2,8 @@ import { NextRequest } from 'next/server';
 import dbConnect from '@/lib/db';
 import Auction from '@/models/Auction';
 import Bid from '@/models/Bid';
+import { commitBid } from '@/lib/bidding';
+import { processAutoBids, deactivateAutoBidsForAuction } from '@/lib/autoBid';
 import { verifyAuth } from '@/lib/authGuard';
 import {
   successResponse,
@@ -59,6 +61,7 @@ export async function POST(
       auction.status = 'ended';
       auction.winner = auction.currentBidder;
       await auction.save();
+      await deactivateAutoBidsForAuction(auction._id);
       return errorResponse('Auction has ended', 400);
     }
 
@@ -83,46 +86,26 @@ export async function POST(
     }
 
     // Atomic update to prevent race conditions
-    const updated = await Auction.findOneAndUpdate(
-      {
-        _id: auctionId,
-        status: 'active',
-        currentBid: { $lt: amount },
-      },
-      {
-        currentBid: amount,
-        currentBidder: user._id,
-      },
-      { new: true }
-    );
+    const result = await commitBid({
+      auctionId,
+      bidderId: user._id,
+      amount,
+    });
 
-    if (!updated) {
+    if (!result) {
       return errorResponse(
         'Bid was outbid by another user. Try again with a higher amount.',
         409
       );
     }
+    const { bid } = result;
 
-    const bid = await Bid.create({
-      auction: auctionId,
-      bidder: user._id,
-      amount,
-    });
-
-    // Socket.io emit (will work once server.ts sets globalThis.io)
-    const io = (globalThis as any).io;
-    if (io) {
-      const populatedBid = await bid.populate('bidder', 'name');
-      io.to(`auction:${auctionId}`).emit('bid:placed', {
-        auctionId,
-        bid: {
-          _id: bid._id.toString(),
-          amount: bid.amount,
-          bidder: populatedBid.bidder,
-          createdAt: bid.createdAt.toISOString(),
-        },
-        currentBid: updated.currentBid,
-      });
+    // Let competing auto-bids respond. A failure here must not turn a
+    // successfully placed manual bid into an error response.
+    try {
+      await processAutoBids(auctionId);
+    } catch (autoBidError) {
+      console.error('Auto-bid processing failed:', autoBidError);
     }
 
     return successResponse(bid, 201);
